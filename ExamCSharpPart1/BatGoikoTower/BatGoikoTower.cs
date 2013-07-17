@@ -3,7 +3,7 @@ class BatGoikoTower
 {
     static void Main()
     {
-        int height = int.Parse(Console.ReadLine());
+        int height = int.Parse(Console.ReadLine());//check 
         int dotsBefore = height -1;
         int dotsInbetween = 0;
         for (int i = 0; i < height; i++)
